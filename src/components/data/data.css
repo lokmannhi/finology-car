@@ -1,0 +1,19 @@
+.Data-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Data-item-odd {
+  width: 45%;
+  background-color: lightblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Data-item-even {
+  width: 45%;
+  background-color: lightgreen;
+  padding: 10px;
+  margin-bottom: 10px;
+}

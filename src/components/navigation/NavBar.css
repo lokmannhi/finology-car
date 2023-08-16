@@ -1,0 +1,22 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  height: 10vh;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit; /* Optional: Ensures the link has the same color as surrounding text */
+}
+
+/* Adding hover effects can also enhance UX */
+.links a:hover {
+  text-decoration: underline; /* Optional: Underline on hover */
+  color: #007bff; /* Optional: Change color on hover */
+}
+
+.outlet {
+  height: 90vh;
+}
